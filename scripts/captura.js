@@ -3,12 +3,12 @@ const cancelar = document.getElementById('cancelar');
 const titulo = document.getElementById('tituloBarra');
 
 flecha.addEventListener('click', () => {
-    location.href = '/index.html'
+    location.href = 'index.html'
 })
 
 
 cancelar.addEventListener('click', () => {
-    location.href = '/index.html'
+    location.href = 'index.html'
 })
 
 
