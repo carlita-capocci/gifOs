@@ -109,7 +109,7 @@ function verVideo() {
                         cuerpo.innerHTML = `
                         <div class="blanco">
                         <div class="globo">
-                            <img src="/imgs/globe_img.png" alt="globo">
+                            <img src="imgs/globe_img.png" alt="globo">
                         </div>
                         <div class="estamos">
                             <p>Estamos subiendo tu guifo...</p>
