@@ -16,7 +16,7 @@ btnCrear.addEventListener('click', ()=>{
 
 
 btnMis.addEventListener('click', ()=>{
-    location.href='misgifos.html'
+    location.href='misGifos.html'
 })
 
 
