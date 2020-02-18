@@ -1,57 +1,138 @@
-/* The dropdown container */
+
 .dropdown {
   display: inline-block;
   overflow: hidden;
   vertical-align: bottom;
-}
-
-/* Dropdown button */
-.dropdown .dropbtn {
-  font-size: 16px;
-  color: #110038;
-  line-height: 18px;
-  border: none;
-  outline: none;
-  background: #F7C9F3;
-  border: 1px solid #110038;
-  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
-  padding: 0px 16px;
-  height: 36px;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  
 }
 
 
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+
+
+.dropdown .caretbtn{
+  margin-left: -4px;
+  width: 36px;
 }
 
-/* Dropdown content (hidden by default) */
-.dropdown-content {
+
+
+
+ .dropdown .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  min-width: 180px;
   z-index: 1;
+  
 }
 
-/* Links inside the dropdown */
-.dropdown-content a {
+.tema1 .dropdown .dropdown-content{
+
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.tema2 .dropdown .dropdown-content{
+
+  background: #B4B4B4;
+  box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+
+
+
+.tema1 .dropdown .dropdown-content a {
   float: none;
   color: black;
-  padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
+  width: 118px;
+  height: 22px;
+  margin: 10px;
+  padding: 7px 16px;
+  background: #F0F0F0;
+  border: 1px solid #808080;
+  box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
 }
 
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
+.tema1 .dropdown .dropdown-content a.elegido{
+  background: #FFF4FD;
+  border: 1px solid #CCA6C9;
+  box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+
+.tema2 .dropdown .dropdown-content a.elegido{
+  background: #2E32FB;
+  border: 1px solid rgba(51,53,143,0.20);
+  box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+}
+  
+
+
+.tema2 .dropdown .dropdown-content a {
+  float: none;
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  background: #CCCCCC;
+  border: 1px solid #808080;
+  box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+  width: 118px;
+  height: 22px;
+  margin: 10px;
+  padding: 7px 16px;
+}
+
+
+.dropdown .dropdown-content a:hover {
   background-color: #ddd;
 }
 
-/* Show the dropdown menu on hover */
+
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+
+.tema1 .dropdown:hover .boton {
+  background-color: #E6BBE2;
+  
+}
+
+.tema2 .dropdown:hover .boton{
+  background-color: #A72CB3;
+  border: 1px dotted #110038; 
+}
+
+.dropdown:hover .boton::after{
+  content: '';
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: 2px;
+  right: 2px;
+  border: 1px dotted #110038;
+}
+
+
+.tema1 button.boton.caretbtn{
+  background-image: url('../imgs/dropdown.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: bottom;
+
+
+}
+
+
+.tema2 button.boton.caretbtn{
+  background-image: url('../imgs/forward.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: bottom;
+  transform: rotate(90deg)
+
 }

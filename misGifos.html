@@ -5,20 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Gif.OS</title>
+    <title>Mis Guifos</title>
     <link href="https://fonts.googleapis.com/css?family=Chakra+Petch:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 
-<body>
+<body class="tema1">
 
     <nav class="navegacion">
-        <p>Bienvenidos/as a Guifos.com ------ Donde los gifs estan.////// Numero de visitas: 12.765.803 </p>
+        <p>Bienvenidos/as a Guifos.com ------ Donde los gifs estan.////// Numero de visitas: </p>
     </nav>
 
     <div class="contenedor">
         <section class="cabecera">
-            <img src="imgs/Transparent.gif" alt="logo" class="logo">
+
+                <div>
+
+                        <img src="imgs/arrow.svg" alt="flecha" class="back" id="flecha">
+                        <img src="imgs/Transparent.gif" alt="logo" class="logo">
+                    </div>
+
             <div>
                 <button class="boton" id="btnCrear">
                     Crear Guifos
@@ -33,80 +39,47 @@
 
                     </button>
                     <div class="dropdown-content">
-                        <a href="#" data-value="tema1" >Sailor Day</a>
+                        <a href="#" data-value="tema1" class="elegido">Sailor Day</a>
                         <a href="#" data-value="tema2">Sailor Nigth</a>
 
                     </div>
                 </div>
 
 
-                <a class="mis" id="btnMis">Mis Guifos
+                <a class="mis misguifos" id="btnMis">Mis Guifos
                     <hr /> </a>
 
             </div>
         </section>
 
-        <section>
-            <div class="buscar">
-                <div class="barra">Buscar</div>
-                <input class="buscando" id="texto-a-buscar" type="text"
-                    placeholder="Busca gifs, hashtags, temas, busca los que quieras..." />
-                <button class="secundario lupa" id="btn_buscar"> Buscar</button>
-            </div>
-            <div class="buscar" id="similar">
 
-
-            </div>
-        </section>
-
-        <section id="resultados">
-
-        </section>
 
         <section class="sugerencias">
 
             <div class="sugeridos">
 
-                <p class="parrafo-sugeridos">Hoy te sugerimos:</p>
+                <p class="parrafo-sugeridos">Mis guifos:</p>
 
             </div>
 
-            <div id='sug'>
+            <div id="misGif">
+
+
 
             </div>
-
-
-
-        </section>
-
-        <section class="tendencias">
-
-            <div class="trending">
-
-                <p class="parrafo-tendencias">Tendencias:</p>
-
-            </div>
-
-            <div id='trend'>
-
-            </div>
-
 
 
         </section>
 
     </div>
 
-    <script src="./scripts/apikey.js"></script>
+
     <script src="./scripts/localStorage.js"></script>
-    <script src="./scripts/search.js"></script>
+    <script src="./scripts/miGif.js"></script>
     <script src="./scripts/select.js"></script>
     <script src="./scripts/cabecera.js"></script>
-    <script src="./scripts/sugerencias.js"></script>
-    <script src="./scripts/tendencias.js"></script>
-    
+
+
 
 
 </body>
-
-</html>

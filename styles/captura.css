@@ -1,0 +1,212 @@
+.cuerpo {
+    padding: 20px;
+}
+
+.cap {
+    text-align: right;
+
+}
+
+.italica {
+    font-style: italic;
+}
+
+
+
+
+
+.botoncap {
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    width: 144px;
+    height: 36px;
+    font-size: 16px;
+    color: #110038;
+    line-height: 18px;
+    position: relative;
+    margin-left: -4px;
+
+    margin-top: 16px;
+
+
+}
+
+
+.botoncam {
+    background-image: url('../imgs/camera.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: bottom;
+    width: 36px;
+    height: 36px;
+    background-color: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    margin-top: 16px;
+
+
+}
+
+
+
+.botlisto {
+
+    width: 144px;
+    height: 36px;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 18px;
+    position: relative;
+    margin-left: -4px;
+    background: #FF6161;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+    margin-top: 16px;
+
+
+
+}
+
+
+.camlisto {
+    background-image: url('../imgs/recording.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: bottom;
+    width: 36px;
+    height: 36px;
+    background-color: #FF6161;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+    margin-top: 16px;
+
+
+}
+
+
+.reloj {
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: center;
+    margin-left: 11px;
+    width: 144px;
+    height: 36px;
+    float: left;
+    margin-top: 16px;
+
+
+}
+
+
+.repetir {
+    background: #FFF4FD;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    width: 144px;
+    height: 36px;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+    margin-right: 16px;
+    margin-top: 16px;
+}
+
+
+.repetir:hover {
+
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+    border: 1px dotted #110038;
+}
+
+
+.subir {
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    width: 144px;
+    height: 36px;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+}
+
+
+.blanco {
+
+    height: 485px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+
+.globo {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.estamos {
+
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+}
+
+.cance {
+    text-align: right;
+}
+
+.bloque {
+    display: inline-block;
+    vertical-align: top;
+
+
+}
+
+.exito {
+
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+
+}
+
+.gf {
+    width: 240px;
+    height: 36px;
+    margin-right: 0px;
+
+}
+
+.creadolis {
+    text-align: right;
+}
+
+.lis {
+    margin-bottom: 30px;
+    margin-right: 30px;
+
+}
+
+
+#descargarArchivo {
+    display: none;
+}

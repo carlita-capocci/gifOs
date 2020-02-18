@@ -1,0 +1,34 @@
+.trending{
+
+    margin-top: 68px;
+}
+
+#trend{
+    display: flex;
+    justify-content: space-between;    
+    width: 1200px;
+    flex-wrap: wrap;
+
+}
+
+#trend .caja{
+    height: 280px;
+    position: relative;
+    margin-bottom: 16px;
+
+}
+
+#trend .ventana{
+    position: absolute;
+    bottom: 2px;
+    display: none;
+
+}
+
+#trend .caja:hover .ventana{
+    display: block
+}
+
+
+
+

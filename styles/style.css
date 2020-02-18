@@ -1,75 +1,89 @@
 @import url("select.css");
 @import url("boton.css");
 @import url("buscar.css");
+@import url("sugerencias.css");
+@import url("tendencias.css");
+@import url("mis-gifs.css");
+@import url("captura.css");
 
 * {
   margin: 0;
-  font-family:'Chakra Petch', sans-serif;
-  
+  font-family: 'Chakra Petch', sans-serif;
+
 }
 
-body{
-    background-color: #FFF4FD;
+body {
+  background-color: #FFF4FD;
 }
 
-.contenedor{
+.contenedor {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  
+
 }
 
 .tema1 nav {
-    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
-    box-shadow: 0 1px 0 0 #110038;
-    color: white;
-    letter-spacing: 0;
-    font-size: 12px;
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  box-shadow: 0 1px 0 0 #110038;
+  color: white;
+  letter-spacing: 0;
+  font-size: 12px;
+  height: 19px;
+  padding: 2px;
+  
 }
 
-.cabecera{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 39px;
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 39px;
 
 }
 
-.cabecera img{
+.cabecera img.logo {
   width: 102.6px;
   height: 64px;
+  display: inline-block;
 }
 
-.tema1 .cabecera img{
+.tema1 .cabecera img.logo {
   background-image: url('../imgs/gifOF_logo.png');
   background-repeat: no-repeat;
   background-size: contain;
+  
 }
 
 
-
-
-
-.tema2 nav{
-    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
-    box-shadow: 0 1px 0 0 #110038;
-    color: white;
-    letter-spacing: 0;
-    font-size: 12px;
-}
-
-
-.tema2 .cabecera img{
-    background-image: url('../imgs/gifOF_logo_dark.png');
-    background-repeat: no-repeat;
-    background-size: contain;
+.tema1 .sugeridos,
+.tema1 .trending {
+  background: #FFFAFE;
+  border: 1px solid #E6BBE2;
+  box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+  width: 1200px;
+  height: 32px;
+  margin-bottom: 20px;
+  margin-top: 60px;
 
 }
 
+.tema2 .sugeridos, .tema2 
+.trending {
+  background: #FFFAFE;
+  border: 1px solid #2E32FB;
+  box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+  width: 1200px;
+  height: 32px;
+  margin-bottom: 20px;
+  margin-top: 60px;
 
-.dark body{
-    background-color: #110038;
 }
 
+.parrafo-sugeridos,
+.parrafo-tendencias {
 
-
-
+  font-size: 14px;
+  color: #110038;
+  letter-spacing: 0;
+  padding: 7px;
+}
