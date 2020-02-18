@@ -140,7 +140,7 @@ function subirBlob(blob, signal) {
     const form = new FormData();
     form.append('file', blob, 'myGif.gif');
     form.append('api_key', api_key);
-    fetch('http://upload.giphy.com/v1/gifs', {
+    fetch('https://upload.giphy.com/v1/gifs', {
             method: 'post',
             body: form,
             signal

@@ -11,12 +11,12 @@ const btnMis= document.getElementById ('btnMis');
 
 
 btnCrear.addEventListener('click', ()=>{
-    location.href='/captura.html'
+    location.href='captura.html'
 })
 
 
 btnMis.addEventListener('click', ()=>{
-    location.href='/misgifos.html'
+    location.href='misgifos.html'
 })
 
 
