@@ -3,7 +3,7 @@ const trend= document.getElementById('trend')
 
 function getTendecias() {
     const found =
-        fetch('http://api.giphy.com/v1/gifs/trending?api_key=' + api_key + '&limit=8')
+        fetch('https://api.giphy.com/v1/gifs/trending?api_key=' + api_key + '&limit=8')
             .then((respuesta)=> respuesta.json().then((res)=> res.data.forEach(imagen => {
                 const gif = document.createElement('img')
                 gif.src = imagen.images.original.url

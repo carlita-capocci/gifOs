@@ -9,7 +9,7 @@ const similar = document.getElementById('similar');
 function getSearchResults(search) {
     resultados.innerHTML = "";
     const found =
-        fetch('http://api.giphy.com/v1/gifs/search?q=' + search +
+        fetch('https://api.giphy.com/v1/gifs/search?q=' + search +
             '&api_key=' + api_key + '&limit=32')
         .then((respuesta) => respuesta.json().then((res) => res.data.forEach(gifos)));
     return found
